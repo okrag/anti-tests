@@ -1,0 +1,13 @@
+{
+  "name": "Anti Tests",
+  "version": "1.0",
+  "description": "Bypass for blur check on tests sites!",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://*.testportal.pl/*", "https://*.testportal.net/*"],
+      "all_frames": true,
+      "js": ["js/testportal.js"]
+    }
+  ]
+}
