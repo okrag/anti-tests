@@ -1,7 +1,10 @@
+declare const UNDEFINED: ReferenceError;
+
 const bypass = () => {
   Object.defineProperty(document, "hasFocus", {
-    get: () => () => true,
+    get: () => UNDEFINED,
   });
+  window.addEventListener("error", () => true);
 };
 
 export const createScript = () => {
