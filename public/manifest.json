@@ -1,6 +1,6 @@
 {
   "name": "Anti Tests",
-  "version": "1.5",
+  "version": "1.6",
   "description": "Bypass for blur check on test sites!",
   "manifest_version": 2,
   "content_scripts": [
