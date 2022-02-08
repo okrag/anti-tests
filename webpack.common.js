@@ -4,6 +4,7 @@ const copyPlugin = require("copy-webpack-plugin");
 module.exports = {
   entry: {
     testportal: "./src/testportal/index.ts",
+    pazdro: "./src/pazdro/index.ts",
   },
   module: {
     rules: [
