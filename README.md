@@ -3,3 +3,4 @@
 Enabled sites:
 
 - testportal.pl/.net
+- pazdro.net
