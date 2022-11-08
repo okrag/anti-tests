@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     testportal: "./src/testportal/index.ts",
     pazdro: "./src/pazdro/index.ts",
+    installing: "./src/installing/index.ts",
   },
   module: {
     rules: [

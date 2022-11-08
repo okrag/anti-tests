@@ -1,6 +1,6 @@
 {
   "name": "Anti Tests",
-  "version": "1.6",
+  "version": "1.7",
   "description": "Bypass for blur check on test sites!",
   "manifest_version": 2,
   "content_scripts": [
@@ -13,6 +13,11 @@
       "matches": ["https://*.pazdro.net/*"],
       "all_frames": true,
       "js": ["js/pazdro.js"]
+    },
+    {
+      "matches": ["https://*.instaling.pl/*"],
+      "all_frames": true,
+      "js": ["js/installing.js"]
     }
   ]
 }
